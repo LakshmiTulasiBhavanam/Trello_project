@@ -86,11 +86,11 @@ def create_card():
 # url is for the trello API call
 url = "https://api.trello.com/1/"
 # Key would have the trello API key value
-key = "67e4381f8240a8be04bc0c224c364555"
+key = ***
 # token is a unique value which will grant access permissions to the trello account.
-token = "ATTAed2cf41d0c80cc1f8d8598c691f8262615fc352dbd5f48a31bb75eb946120792AC48A057"
+token = ***
 # boardid would be the unique id for the board to which user wants to add the cards.
-boardid = "642e04b1d680935e2fa5156a"
+boardid = ***
 authentication = {'key': key, 'token': token, 'boardID': boardid}
 
 # function call starts here.
